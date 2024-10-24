@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://enceladus/ServiceUI.tscn" type="PackedScene" id=1]
+[ext_resource path="res://enceladus/Services.tscn" type="PackedScene" id=2]
+
+[sub_resource type="ViewportTexture" id=1]
+viewport_path = NodePath("VB/WindowMargin/Window/VP/ViewportContainer/Viewport")
+
+[node name="Services" instance=ExtResource( 2 )]
+
+[node name="TextureRect" parent="VB/WindowMargin/Window/VP" index="1"]
+texture = SubResource( 1 )
+
+[node name="MarginContainer" parent="VB/MarginContainer/ScrollContainer" index="0"]
+margin_bottom = 552.0
+
+[node name="Items" parent="VB/MarginContainer/ScrollContainer/MarginContainer" index="0"]
+margin_bottom = 536.0
+
+[node name="EarthTour" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="9" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 486.0
+margin_right = 1228.0
+margin_bottom = 536.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+node = NodePath("../../../../../WindowMargin/Window/VP/ViewportContainer/Viewport/EnceladusPerspective/Residential/EarthTour")
+serviceName = "SERVICE_HOTEL_EARTH"
+serviceHours = 8760
+moraleChange = 2.0
+moraleStay = 2.0
+cooldownHours = 336
+flatPrice = 1e+06
+totalMemberPrice = 100000.0
+
+[editable path="VB/HeaderWithMoney"]
+[editable path="VB/WindowMargin/Window/VP/ViewportContainer/Viewport/EnceladusPerspective"]

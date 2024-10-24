@@ -1,0 +1,7 @@
+locale|en
+
+SERVICE_HOTEL_EARTH|Terrestrial Heritage Experience
+
+SERVICE_HOTEL_EARTH_DESC|The Terrestrial Heritage Experience offers an exclusive year-long immersion into Earth's diverse environments and cultures. Operating from multiple premium locations across Earth's most iconic regions, this heritage program allows space-born citizens to experience the full range of planetary seasons and gravity conditions. From the pristine beaches of the Pacific to the towering peaks of the Himalayas, participants enjoy carefully curated accommodations while adapting to Earth's stronger gravitational pull under professional supervision. Each booking includes necessary support staff, including medical professionals, cultural guides, and personal assistants to ensure a comfortable adjustment to Earth's conditions.
+
+SERVICE_HOTEL_EARTH_OFFER|Deluxe Year Package: \nPremium Earth-gravity Accommodations \nMedical Supervision Program \nCultural Integration Services \nGlobal Transport Access \nSeasonal Location Rotation \nRegional Cuisine Experience \n365-day stay (including transit time) \n1,000,000 E$ base fee + 100,000 E$ per support staff member
