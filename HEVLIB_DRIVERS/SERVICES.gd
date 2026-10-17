@@ -1,0 +1,32 @@
+const SERVICES = [
+	{
+		"name":"SERVICE_HOTEL_EARTH",
+		"hours":8760,
+		"cooldown":336,
+		"morale_change":0.5,
+		"morale_stability":0.5,
+		"price":1e+06,
+		"price_per_total_crew":100000.0,
+		"layer":"residential",
+		"camera":{
+			"position":Vector2(1007,1086),
+			"scale":Vector2(2,2)
+		},
+		"signs":[
+			{
+				"sprite":"res://EarthTourism/logos/earth-tour.stex",
+				"light":"res://EarthTourism/logos/earth-tour-light.stex",
+				"flicker":0.1,
+				"flicker_base":0.05,
+				"position_offset":Vector2(-62,-85),
+				"rotation_offset":-33,
+				"scale":Vector2(0.6,0.6),
+				"color":Color("220844"),
+				"light_color":Color("5580c2"),
+				"light_height":20.0,
+				"light_energy":13.0,
+			}
+		],
+		
+	}
+]

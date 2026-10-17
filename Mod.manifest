@@ -1,0 +1,14 @@
+[mod_information]
+
+name="EarthTourism"
+id="wt.EarthTourism"
+
+[version]
+
+version_major=1
+version_minor=0
+version_bugfix=0
+
+[manifest_definitions]
+
+manifest_version=2.2
